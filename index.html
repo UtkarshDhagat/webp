@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Personal Website</title>
+    <style>
+        /* Reset */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background: #f4f4f4;
+            color: #333;
+        }
+        /* Container */
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        .navbar a {
+            color: #fff;
+            padding: 0 15px;
+            text-decoration: none;
+        }
+        /* Hero */
+        .hero {
+            background: #0066cc;
+            color: #ffffff;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0 0 10px;
+            font-size: 2.5rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        /* About */
+        .about {
+            background: #ffffff;
+            padding: 50px 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        /* Projects */
+        .projects {
+            background: #eaeaea;
+            padding: 50px 20px;
+            margin: 20px 0;
+        }
+        .project-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        /* Contact */
+        .contact {
+            background: #ffffff;
+            padding: 50px 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        /* Media Queries */
+        @media (min-width: 768px) {
+            .hero, .about, .projects, .contact {
+                text-align: left;
+            }
+            .navbar {
+                justify-content: start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="container">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</div>
+
+<div class="hero" id="home">
+    <div class="container">
+        <h1>Welcome to My Personal Website</h1>
+        <p>I'm a second year Computer Science student specializing in AI and Robotics at VIT Chennai.</p>
+    </div>
+</div>
+
+<div class="about" id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am passionate about Cybersecurity, AI, and Robotics. My academic journey at VIT Chennai has been enriching, allowing me to explore the fascinating intersection of technology and real-world applications.</p>
+    </div>
+</div>
+
+<div class="projects" id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <h3>Autonomous Navigation Robot</h3>
+        <p>This robotics project focuses on designing a robot capable of autonomous navigation in complex environments using a blend of sensors and AI algorithms. The project aims to demonstrate the potential of robotics in enhancing operational efficiency and safety in industrial settings.</p>
+        <img class="project-img" src="https://www.analyticsinsight.net/wp-content/uploads/2022/05/Top-10-Best-Robotics-Project-Ideas-for-Engineering-Students-in-2022.jpg" alt="Autonomous Navigation Robot">
+    </div>
+</div>
+
+<div class="contact" id="contact">
+    <div class="container">
+        <h2>Contact</h2>
+        <p>Feel free to reach out via email at utkarshdhagat6@gmail.com.com or connect with me on LinkedIn.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 My Personal Website</p>
+</footer>
+
+</body>
+</html>
